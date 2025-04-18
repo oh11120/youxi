@@ -28,9 +28,9 @@ let cursors;
 let collisionFlag = false;
 
 function preload() {
-    this.load.image('bg', './assets/img.png');       // 背景
-    this.load.image('deathStar', './assets/img_1.png'); // 星球
-    this.load.image('xWing', './assets/img_2.png');    // 飞机
+    this.load.image('bg', '/assets/img.png');       // 背景
+    this.load.image('deathStar', '/assets/img_1.png'); // 星球
+    this.load.image('xWing', '/assets/img_2.png');    // 飞机
 }
 
 function create() {
